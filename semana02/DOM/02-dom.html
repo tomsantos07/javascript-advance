@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Teste</title>
+</head>
+
+<body>
+
+<p id="texto">Texto aqui</p>
+
+<p id="conteudo">Nada aqui</p>
+
+<button onclick="mudar()">Mudar</button>
+
+<script>
+function mudar(){
+document.getElementById("texto").innerText = "Novo texto";
+document.getElementById("conteudo").innerHTML = "Texto com <b>HTML</b>";
+}
+</script>
+
+</body>
+</html>
